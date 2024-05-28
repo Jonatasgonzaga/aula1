@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'aula1';
+  public estado: boolean = false;
+
+/*tipagem de parâmetro */
+  public mudarEstado(estado: boolean):void {
+    this.estado = estado;
+  }
 }

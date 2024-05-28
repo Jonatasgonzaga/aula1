@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LampadaComponent } from './components/lampada/lampada.component';
+import { InterruptorComponent } from './components/interruptor/interruptor.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LampadaComponent,
+    InterruptorComponent
   ],
   imports: [
     BrowserModule,
